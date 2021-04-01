@@ -46,3 +46,8 @@ Resources:
         FromPort: 22
         ToPort: 22
         CidrIp: 192.168.1.1/32
+
+Outputs:
+  ElasticIP:
+    Description: Elastic IP Value
+    Value: !Ref MyEIP
